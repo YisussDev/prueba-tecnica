@@ -1,27 +1,19 @@
 # PruebaTecnica
+Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
+El proyecto consta de una cafetería que realiza un crud de productos en el inventario de esta misma, utilizando firebase realtime database como alojamiento de la base de datos de productos y registos de venta.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
+## Dependencias
 
-## Development server
+Ejecuta `npm install` para instalar las dependencias utilizadas.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Servidor de desarrollo
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Ejecuta `ng serve` para iniciar un servidor de desarrollo. Abre en tu navegador `http://localhost:4200/`. La aplicación se actualizará por cada cambio que realices en el código.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Ejecuta `ng build` para construir el proyecto.
 
-## Running unit tests
+## Ayuda
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Ejecuta `ng help` para obtener ayuda.
