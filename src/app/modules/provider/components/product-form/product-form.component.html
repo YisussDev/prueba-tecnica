@@ -1,0 +1,18 @@
+
+<section class="provider_container">
+    <form (submit)="sendForm()" [formGroup]="provideProductForm">
+        <label for="">
+            Product:
+            <select formControlName="typeProduct">
+                <option *ngFor="let product of products" [value]="product.id">
+                    {{product.id}}:{{product.name}}
+                </option>
+            </select>
+        </label>
+        <label>
+            Quantity:
+            <input type="number" formControlName="quantity">
+        </label>
+        <button type="submit">Provide Product</button>
+    </form>
+</section>

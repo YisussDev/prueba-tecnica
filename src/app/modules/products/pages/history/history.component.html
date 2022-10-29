@@ -1,0 +1,10 @@
+<h2 class="title_history">Sell's History</h2>
+<section class="history_container" *ngFor="let register of history">
+    <div class="card_register">
+        <p>Quantity: {{register?.quantity}}</p>
+        <hr>
+        <p>Product ID: {{register?.product_id}}</p>
+        <hr>
+        <p>Date: {{register?.date | date}} </p>
+    </div>
+</section>

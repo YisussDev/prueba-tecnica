@@ -1,0 +1,14 @@
+<button (click)="goToHistory('history')" class="history_button">History</button>
+<section class="list_container" *ngFor="let product of products">
+    <div class="list_card">
+        <div class="image_container">
+            <img src="https://s1.eestatic.com/2017/02/13/cocinillas/cocinillas_193495389_116293001_1706x960.jpg" alt="">
+        </div>
+        <div class="info_container">
+            <h2>{{product.name}}</h2>
+            <h3>${{product.price}}.00</h3>
+            <h4>Stock: <strong style="color: var(--color-secondary)">{{product.stock}}</strong> </h4>
+            <button (click)="sellProduct(product)" class="sell_button">Sell</button>
+        </div>
+    </div>
+</section>

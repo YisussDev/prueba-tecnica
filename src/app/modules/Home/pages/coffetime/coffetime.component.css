@@ -1,0 +1,6 @@
+.home_container {
+    padding: 20px;
+}
+.home_container > h2 {
+    text-align: center;
+}
